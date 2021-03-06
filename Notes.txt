@@ -56,6 +56,31 @@ NavBar:
         *uses a bootstrap grid for the Visualizations
         *The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 
+<!--First Row-->
+    <div class="row">
+      <!--first of two Columns-->
+      <div class="col-md-6">
+        <img
+      </div>
+      <!--Second of two Columns-->
+      <div class="col-md-6">
+        <img
+      </div>
+    </div>
+<!--Second Row-->
+    <div class="row">
+      <!--first of two Columns-->
+      <diimgv class="col-md-6">
+        <img
+      </div>
+      <!--Second of two Columns-->
+      <div class="col-md-6">
+        <img
+      </div>
+    </div>
+
+
+
     Data Page
         Displays a responsive table with data from the visualizations
         *The table must be a bootstrap table component (see hint from GitLab)
