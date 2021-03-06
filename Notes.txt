@@ -1,0 +1,64 @@
+Notes on index.html file
+
+NavBar:
+    Home
+    plots
+        Windspeed
+        Cloudiness
+        Humidity
+        Max Temperature
+    Comparison
+    Data
+
+    Landing Page
+        Center of Page
+            Header: Summary: Latitude vs. Weather Systems
+            Image: any Image
+            Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate aliquet velit at tempus. 
+            Aliquam tempor ultrices eros ac blandit. Nulla facilisi. Suspendisse sit amet posuere urna, quis 
+            bibendum justo. Nulla facilisi.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate aliquet velit at tempus. 
+            Aliquam tempor ultrices eros ac blandit. Nulla facilisi.
+
+        Bottom of Page
+            Subheader: Visualizations (horizonal across the bottom)
+            4 images (all links to other pages)
+
+    Visualization Page 1
+        Header: Latitude vs. Windspeed
+        Image: windspeed.png
+        Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate aliquet velit at tempus. 
+            Aliquam tempor ultrices eros ac blandit. Nulla facilisi. Suspendisse sit amet posuere urna, quis 
+            bibendum justo. 
+
+    Visualization Page 2
+        Header: Latitude vs. Cloudiness
+        Image: clouds.png
+        Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate aliquet velit at tempus. 
+            Aliquam tempor ultrices eros ac blandit. Nulla facilisi. Suspendisse sit amet posuere urna, quis 
+            bibendum justo. 
+
+    Visualization Page 3
+        Header: Latitude vs. Humidity
+        Image: humidity.png
+        Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate aliquet velit at tempus. 
+            Aliquam tempor ultrices eros ac blandit. Nulla facilisi. Suspendisse sit amet posuere urna, quis 
+            bibendum justo. 
+
+    Visualization Page 4
+        Header: Latitude vs. Max Temperature
+        Image: maxtemp.png
+        Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate aliquet velit at tempus. 
+            Aliquam tempor ultrices eros ac blandit. Nulla facilisi. Suspendisse sit amet posuere urna, quis 
+            bibendum justo. 
+
+    Comparison Page
+        contains all four images
+        *uses a bootstrap grid for the Visualizations
+        *The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+
+    Data Page
+        Displays a responsive table with data from the visualizations
+        *The table must be a bootstrap table component (see hint from GitLab)
+        pull the data in from the export CSV file or convert to HTML (try pandas method to_html - see GitLab for link)
+
+
