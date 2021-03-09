@@ -1,9 +1,12 @@
-.class-padding
+.class-padding-left
 {
   padding-left: 100px;
-  padding-right: 100px;
 }
 
+.class-padding-right
+{
+  padding-right: 100px;
+}
 
 .class-padding_top
 {
@@ -13,5 +16,5 @@
 .align_center
 {
   text-align: center;
-  color: aquamarine;
+  color: rgb(7, 87, 60);
 }

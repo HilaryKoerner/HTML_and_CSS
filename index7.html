@@ -44,24 +44,11 @@
         </div>
       </nav>
 <div>
-
-</div>
-    
-        <div class="row class-padding" >
-            <div class="col-6">
+<div class = "container class-padding-right">
+    <div class = "row">
+        <div id="main-content" class = "col-md-6">
             <h2>Summary: Latitude vs. Weather Systems</h1>
-            </div>
-            <div class="col-3">
-            <h1></h1>
-            </div>
-            <div class="col-3">
-            <h2>Visualizations</h1>
-            </div>
-        </div>
-        <!-- Wrapping text: https://stackoverflow.com/questions/33003868/wrap-text-around-an-image-on-bootstrap-3 -->
-        <div class="row class-padding_left class-padding_right">
-            <div class="col-md-6">
-            <img src="assets/windspeed.png" alt="Windspeed image" width="550" height="500" class="float-left" 
+                <img src="assets/windspeed.png" alt="Windspeed image" width="550" height="500" class="float-left" 
                 style="height:500px;margin-right:10px">
                     <p class="lh-lg class-padding">Using the OpenWeatherMap API, I was able to pull weather data from over 600 cities around the world. The purpose of this assignment was to
                         compare the latitudes of cities and weather patterns. In the project we looked at humidity, cloudiness, maximum temperature, and windspeed. The first step was to 
@@ -71,15 +58,27 @@
                         the various factors that we were interested in exploring. For each of the four factors (humidity, cloudiness, maximum temperature, and windspeed) I created scatter plots with the 
                         latitude along the x-axis and the different factors on the y-axis. Each dot on the scatter plot represents a city at their location and the corresponding weather data taken that day.  
                     </p>
-            </div>
-
-            <div class="col-md-6">
-                <a href="Resources/windspeed.html"><img src= "assets/windspeed.png" alt="Windspeed image" width="350" height= "300" class="float-right"/></a>
-                <a href="Resources/clouds.html"><img src= "assets/clouds.png" alt="clouds image" width="350" height= "300" class="float-right"/></a>
-                <a href="Resources/humidity.html"><img src= "assets/humidity.png" alt="Humidity image" width="350" height= "300" class="float-right"/></a>
-                <a href="Resources/maxtemp.html"><img src= "assets/maxtemp.png" alt="Max Temp image" width="350" height= "300" class="float-right"/></a>
+        </div>
+        
+        <div id = "side-bar" class = "col-md-6">
+            <div class = "container class-padding-left">
+                <div class ="row">
+                    <h2>Visualizations</h1>
+                    <div class = "col-md-6">
+                        <a href="Resources/windspeed.html"><img src= "assets/windspeed.png" alt="Windspeed image" width="350" height= "300" class="float-right"/></a>
+                        <a href="Resources/clouds.html"><img src= "assets/clouds.png" alt="clouds image" width="350" height= "300" class="float-right"/></a>
+                    </div>
+                    <div class = "col-md-6">
+                        <a href="Resources/humidity.html"><img src= "assets/humidity.png" alt="Humidity image" width="350" height= "300" class="float-right"/></a>
+                        <a href="Resources/maxtemp.html"><img src= "assets/maxtemp.png" alt="Max Temp image" width="350" height= "300" class="float-right"/></a>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+</div>
+
+        
     
         
 </div>
