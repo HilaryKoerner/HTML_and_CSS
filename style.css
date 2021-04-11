@@ -1,11 +1,11 @@
 .class-padding-left
 {
-  padding-left: 100px;
+  align-self: auto;
 }
 
 .class-padding-right
 {
-  padding-right: 100px;
+  padding-right: -600px;
 }
 
 .class-padding_top
