@@ -1,4 +1,4 @@
-/* Styling for HTML elements */
+/* Styling for HTML elements
 html {
     /* Positioning */
     position: relative;
@@ -261,11 +261,11 @@ html {
     color: #fff;
   }
   
-  .two-toned-footer-color {
+  /* .two-toned-footer-color {
     /* Box-model */
     height: 6px;
     padding-top: 3px;
   
     /* Visual */
-    background-color: #4aaaa5;
-  }
+    background-color: #4aaaa5; */
+  } */
