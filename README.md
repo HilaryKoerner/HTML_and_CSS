@@ -1,8 +1,6 @@
 # Weather Data Web Design
 I created a website to display weather graphics using HTML, CSS, and bootstrap.  
 
-# Deployed to Github Pages
-
 # UFO javaScript Analysis
 
 Using javsScript, HTML, CSS, and D3, I created a website to filter a users unput and display the related infomration. 
